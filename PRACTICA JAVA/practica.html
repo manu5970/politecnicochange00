@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLITECNICO CHANGE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+    
+
+<body>
+    <header>
+       
+        <div class="banner">
+            <IMG SRC="cbm.jpg" >
+            <h1>Cambio de Moneda</h1>
+            
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#conversor">Conversor de Moneda</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido al Cambio de Moneda</h2>
+            El cambio de moneda en general se le llama a cualquier operación por la que un billete, 
+            cheque, depósito, préstamo o cualquier otro producto, instrumento financiero o 
+            medio de pago pasa de ser expresado en una determinada divisa a estar en una divisa diferente.
+            <br>
+            Un tipo de cambio indica cuál es el valor o precio de la moneda de un país en términos de otra moneda.
+            <br>
+            En este caso podrás realizar el cambio de 
+            <ul>
+                <li>EU – Euros </li>
+                <li>USD – Dólares</li>
+                <li>BR – Reales Brasileños</li>
+            </ul>  
+            A COP Pesos colombianos.
+
+            El peso colombiano es la moneda oficial de Colombia desde 1810. 
+            El código ISO de la moneda es COP y la abreviatura para mencionar la moneda es COL$. 
+            El Banco de la República de Colombia es el encargado de circular y controlar la moneda colombiana.
+            
+        </section>
+
+        <section id="conversor">
+            <h2>Cambio de Moneda</h2>
+            <div class="converter">
+                <label for="amount">Cantidad:</label>
+                <input type="number" id="amount" placeholder="Ingrese la cantidad">
+                <label for="from">De:</label>
+                <select id="from">
+                    <option value="EUR">Euros (EU)</option>
+                    <option value="USD">Dólares (USD)</option>
+                    <option value="BRL">Reales Brasileños (BR)</option>
+                </select>
+                <label for="to">A:</label>
+                <select id="to">
+                    <option value="COP">Pesos Colombianos (COP)</option>
+                </select>
+                <button id="convertBtn">Convertir</button>
+            </div>
+            <div id="result"></div>
+           </div>
+
+        <script src="script.js"></script>
+    
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            Las conversiones se basan en los promedios de las variaciones oferta/demanda durante el día
+            de las diferentes monedas con respecto al dólar.
+            Para el caso del peso colombiano este promedio no equivale a la Tasa Representativa del Mercado (TRM), 
+            ya que el TRM es la tasa de cambio con que abre y cierra el dólar en el mercado colombiano.
+            <br>
+            El conversor de monedas basa su funcionamiento en la actualización continua de los llamados tipos de cambio, 
+            el valor con el que cotiza cada divisa y que varí­a constantemente en el mercado de divisas
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            Alguna duda o sugerencia adicional comunicate al 
+            Número único: (604) 448 42 27
+        </section>
+    </main>
+
+    <footer>
+        <div class="pie">
+            <p>&copy; 2024 Cambio de Moneda. Todos los derechos reservados.</p>            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
